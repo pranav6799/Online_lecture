@@ -169,7 +169,7 @@ import React from 'react'
 import toast from 'react-hot-toast'
 import { Select } from 'antd'
 import { useState, useEffect } from 'react'
-import { useAuth } from '../Context/Auth'
+import { useAuth } from '../context/Auth'
 import { useNavigate, useParams } from 'react-router-dom'
 import Layout from './Layout'
 
