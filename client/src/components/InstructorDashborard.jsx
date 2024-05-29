@@ -1,6 +1,6 @@
 // import { useEffect, useState } from "react"
 import { useEffect, useState } from "react"
-import { useAuth } from "../Context/Auth"
+import { useAuth } from "../context/Auth"
 import Layout from "./Layout"
 import axios from "axios"
 import { jwtDecode } from "jwt-decode"
