@@ -1,4 +1,4 @@
-import Headers from '../Util/Headers'
+import Headers from '../Util/Header'
 import { Toaster } from 'react-hot-toast'
 
 // eslint-disable-next-line react/prop-types
