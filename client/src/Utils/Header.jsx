@@ -1,5 +1,5 @@
 import { Link, useNavigate} from "react-router-dom"
-import { useAuth } from "../Context/Auth"
+import { useAuth } from "../context/Auth"
 const Header = ()=>{
   const navigate = useNavigate()
   const [auth] = useAuth()
