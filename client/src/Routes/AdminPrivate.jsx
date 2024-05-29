@@ -3,7 +3,7 @@ import { useAuth } from '../context/Auth'
 import { Outlet } from 'react-router-dom'
 import Spinner from '../components/Spinner'
 // import axios from 'axios'
-// import Spinner from '../Components/Spinner'
+// import Spinner from '../components/Spinner'
 
 
 const AdminRoute = () => {
