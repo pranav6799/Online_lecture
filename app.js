@@ -14,7 +14,7 @@ const scheduleRouter = require("./Routes/scheduleRoutes");
 
 
 
-app.use(cors());
+app.use(cors( origin: 'http://localhost:6001'));
 app.use(morgan("dev"));
 app.use(express.json());
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
