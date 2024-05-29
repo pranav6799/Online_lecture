@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { useAuth } from '../Context/Auth'
+import { useAuth } from '../context/Auth'
 import AddCourse from './AddCourse'
 import Layout from './Layout'
 import Instructor from './instructorList'
