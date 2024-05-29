@@ -1,14 +1,14 @@
 
 import { Routes, Route } from "react-router-dom";
-import Login from './Components/Login';
-import StartPage from './Components/StartPage';
-import Register from './Components/Register';
-import AdminDashboard from './Components/AdminDashboard'
+import Login from './components/Login';
+import StartPage from './components/StartPage';
+import Register from './components/Register';
+import AdminDashboard from './components/AdminDashboard'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import InstructorDashboard from './Components/InstructorDashborard';
-import Courses from './Components/Courses';
-import AddLecture from './Components/AddLecture';
-import InstructorLectures from './Components/InstructorLectures';
+import InstructorDashboard from './components/InstructorDashborard';
+import Courses from './components/Courses';
+import AddLecture from './components/AddLecture';
+import InstructorLectures from './components/InstructorLectures';
 import AdminRoute from './Routes/AdminPrivate';
 
 
